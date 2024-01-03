@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #FFE559;
+}
+
+.nav-bar {
+    background: linear-gradient(rgba(253, 171, 47, 1), rgba(255, 190, 91, 0.2));
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    width: 320px;
+    height: 260px;
+    background: linear-gradient(rgba(255, 255, 234, 1), rgba(254, 255, 223, 0));
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-family: Inter;
+    padding: 10px;
+}
+
+.card img {
+    width: 60%;
+}
+
+.about-us {
+    margin: 60px auto;
+    width: 80%;
+}
+
+.about-us-content h2 {
+    color: red;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+}
+
+.about-us-content p {
+    margin-top: 5px;
+}
+
+.about-us-content img {
+    width: 45%;
+}
+
+.card h5 {
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.card:first-child img{
+    width: 100%;
+}
+
+.product {
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us-content div {
+    width: 60%;
+}
+
+.about-us-content div img {
+    width: 50%;
+    float: right;
+}
+
+input {
+    width: 60%;
+    height: 50px;
+    margin: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+form h2 {
+    color: #E05B58;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+form {
+    width: 50%;
+    height: 400px;
+    background: linear-gradient(rgba(255, 255, 234, 1), rgba(254, 255, 223, 0));
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 200px;
+    position: relative;
+    height: 100px;
+    background: linear-gradient(rgba(253, 171, 47, 1), rgba(255, 190, 91, 0.2));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.4s;
+}
+
+a:hover {
+    color: #8A27ED;
+    transition: color 0.4s;
+}
+
+footer img {
+    width: 6%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+form label {
+    margin-bottom: 40px;
+}
+
+form button {
+    width: 20%;
+    height: 14%;
+    border: none;
+    border-radius: 15px;
+    background-color: #E05B58;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about-us-content div a {
+    color: #E05B58;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    font-family: "Montserrat";
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.about-us-content p {
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.product-ranges {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+    margin: auto;
+}
+
+h4 {
+    color: red;
+    margin-bottom: 38px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+
+li {
+    color: #733B07;
+    display: inline;
+    margin-inline: 12px;
+}
+
+ul {
+    float: right;
+}
+
+.main-image {
+    margin-top: 80px;
+    display: flex;
+}
+
+.text-promo {
+    width: 538px;
+    height: 318px;
+}
+
+span {
+    color: #E05B58;
+    font-size: 96px;
+}
+
+.main-image p {
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.main-image img {
+    width: 50%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(224, 91, 88, 1);
+    font-weight: 800;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.logo img {
+    width: 57px;
+    height: 58px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media all and (max-width: 870px) {
+    h1 span {
+        font-size: 70px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    footer img {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .card h5 {
+        font-size: 0.75em;
+    }
+
+    .product-ranges {
+        justify-content: center;
+    }
+
+    .about-us {
+        width: 90%;
+    }
+
+    .about-us-content img {
+        width: 35%;
+    }
+
+    .about-us-content div a {
+        font-size: 26px;
+    }
+
+    .about-us-content img:last-child {
+        width: 40%;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    footer img {
+        width: 8%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .main-image {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image img {
+        width: 90%;
+    }
+
+    .text-promo h1 {
+        font-size: 32px;
+    }
+
+    .text-promo span {
+        font-size: 64px;
+    }
+
+    .text-promo {
+        width: 90%;
+        text-align: center;
+    }
+
+    .product-ranges {
+        flex-direction: column;
+    }
+
+    .about-us-content {
+        flex-direction: column;
+    }
+
+    .about-us-content div {
+        width: 90%;
+    }
+
+    .about-us > .about-us-content img {
+        width: 70%;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    form button {
+        width: 30%;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer img {
+        width: 16%;
+    }
+
+    footer {
+        margin: 0;
+        height: 150px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .nav-bar ul {
+        display: none;
+    }
+    
+    .main-image h1 span {
+        font-size: 44px;
+    }
+
+    .main-image p {
+        font-size: 26px;
+    }
+
+    .text-promo {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .card {
+        width: 80%;
+        margin: auto;
+    }
+
+    .product-ranges {
+        width: 100%;
+        justify-content: center;
+    }
+
+    h4 {
+        margin-top: 0;
+        font-size: 24px;
+    }
+
+    .about-us-content h2 {
+        margin-bottom: 15px;
+    }
+
+    .about-us-content div a {
+        margin-top: 40px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    form button {
+        width: 40%;
+    }
+
+    .about-us-content div h2 {
+        margin-top: 0;
+    }
+}
